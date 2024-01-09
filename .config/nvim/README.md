@@ -1,1 +1,1 @@
-See [this](https://github.com/Aliiiiii404/Neovim-config/tree/main) reop for the Neovim config files
+See [https://github.com/Aliiiiii404/Neovim-config/tree/main](https://github.com/Aliiiiii404/Neovim-config/tree/main) for the Neovim config files
