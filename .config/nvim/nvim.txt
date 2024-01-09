@@ -1,1 +1,0 @@
-See this repo for nvim config files : https://github.com/Aliiiiii404/Neovim-config/tree/main
