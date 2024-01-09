@@ -1,0 +1,67 @@
+{
+    "layer": "top", // Waybar at top layer
+    "modules-left": ["custom/launcher"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-right": ["network", "battery", "custom/swww", "clock", "custom/power-menu"],
+    "wlr/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "format-icons": {
+        "active": " 󰮯",
+        "default": "",
+      }
+    },
+    "hyprland/window": {
+        "format": "{}"
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%b %d %Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+    "custom/swww": {
+        "format": "🍚",
+        "on-click": "~/.config/waybar/scripts/changeWallpaperDesktop"
+    },
+    "network": {
+        /* "format-wifi": "直", */
+        "format-wifi": "{icon}",
+        "format-ethernet": " ",
+        "format-disconnected": "睊",
+        "tooltip-format": "{essid}",
+        "on-click": "~/.config/waybar/scripts/network/rofi-network-manager.sh",
+        "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
+    },
+    "battery": {
+      "bat": "macsmc-battery",
+      "adapter": "ADP0",
+      "interval": 60,
+      "states": {
+          "warning": 30,
+          "critical": 15
+      },
+      "max-length": 20,
+      "format": "{icon} ",
+      "format-warning": "{icon}",
+      "format-critical": "{icon}",
+      "format-charging": "<span font-family='Font Awesome 6 Free'></span>",
+      "format-plugged": "ﮣ", 
+
+      "format-alt": "{icon} {time}",
+      "format-full": "ﮣ", 
+      "format-icons": ["󱊡", "󱊢", "󱊣"]
+    },
+   "custom/lock": {
+       "tooltip" : false,
+       "on-click": "swaylock",
+       "format" : "",
+    },
+    "custom/power-menu": {
+        "format": " ⏻ ",
+        "on-click": "wlogout &",
+    }, 
+    "custom/launcher": {
+        "format": "",
+        "on-click": "wofi",
+    },
+}
