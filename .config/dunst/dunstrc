@@ -58,4 +58,3 @@
     foreground = "#f0e0e0"
     frame_color = "#d64e4e"
     timeout = 0
-    default_icon = /usr/share/icons/Paper/16x16/status/dialog-warning.png
