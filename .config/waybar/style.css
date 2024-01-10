@@ -89,6 +89,7 @@ window#waybar.hidden {
 #battery.full,
 #battery.plugged {
   color: #8fbcbb;
+  padding-right: 15px;
 }
 
 @keyframes blink {
