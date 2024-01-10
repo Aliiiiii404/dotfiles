@@ -10,3 +10,10 @@
 - **Wallpaper** : [swww](https://github.com/Horus645/swww)
 - **Notification daemon** : [Dunst](https://github.com/dunst-project/dunst)
 - **IDE** : [Neovim](https://github.com/neovim/neovim) with [personal config](https://github.com/Aliiiiii404/Neovim-config/tree/main)
+
+### ScreenShots
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/1.png)
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/2.png)
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/3.png)
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/4.png)
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/5.png)
