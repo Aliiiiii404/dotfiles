@@ -5,14 +5,14 @@
     height = 320
     origin = top-right
     offset = 15x15
-    scale = 5
+    scale = 0
     notification_limit = 0
     progress_bar = false
     indicate_hidden = yes
-    transparency = 3
-    separator_height = 5
+    transparency = 0
+    separator_height = 2
     padding = 10
-    horizontal_padding = 10
+    horizontal_padding = 15
     text_icon_padding = 0
     frame_width = 1
     frame_color = "#232323"
@@ -33,12 +33,10 @@
     hide_duplicate_count = false
     show_indicators = yes
     icon_position = left
-    min_icon_size = 0
-    max_icon_size = 32
     sticky_history = yes
     history_length = 20
     always_run_script = true
-    corner_radius = 5
+    corner_radius = 0
     ignore_dbusclose = false
     force_xinerama = false
     mouse_left_click = close_current
@@ -60,3 +58,4 @@
     foreground = "#f0e0e0"
     frame_color = "#d64e4e"
     timeout = 0
+    default_icon = /usr/share/icons/Paper/16x16/status/dialog-warning.png
