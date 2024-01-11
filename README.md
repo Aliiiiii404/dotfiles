@@ -22,6 +22,16 @@ https://github.com/Aliiiiii404/dotfiles/assets/73275543/5fffd947-3edb-40d2-8da9-
 
 ### Installation
 
+#### installing Hyprland on Asahi linux using legacyrenderer : 
+```bash
+git clone https://aur.archlinux.org/hyprland-legacyrenderer.git
+cd hyprland-legacyrenderer
+makepkg -si
+sudo pacman -Sy
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+```
+#### installing the dotfiles : 
 ```bash
 git clone https://github.com/Aliiiiii404/dotfiles ~/dotfiles
 cp -r ~/dotfiles/.config/* ~/.config/
