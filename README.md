@@ -14,7 +14,8 @@
 ### ScreenShots
 https://github.com/Aliiiiii404/dotfiles/assets/73275543/5fffd947-3edb-40d2-8da9-3576eaaea83c
 
-![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/1.png)
-![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/3.png)
-![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/4.png)
-![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/5.png)
+
+<p align="center">
+    <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/1.png" /> <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/3.png" />
+    <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/4.png" /> <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/.config/screenshots/5.png" />
+</p>
