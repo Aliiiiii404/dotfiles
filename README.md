@@ -1,6 +1,6 @@
 ### Things Used
 
-- **OS** : [Asahi Linux](https://asahilinux.org/) with [archlinux](https://archlinux.org/)(ARM aarch64)
+- **OS** : [Asahi Linux](https://asahilinux.org/) with [Arch Linux](https://archlinux.org/)(ARM aarch64)
 - **Window Manager** : [Hyprland](https://github.com/hyprwm/Hyprland)
 - **Terminal** : [Kitty](https://github.com/kovidgoyal/kitty)
 - **Shell** : [Zsh](https://www.zsh.org/) with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
