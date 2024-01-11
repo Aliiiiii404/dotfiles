@@ -8,6 +8,7 @@
 - **Launcher** : [Wofi]()
 - **Network Manager** : [rofi-network-manager](https://github.com/P3rf/rofi-network-manager)
 - **Wallpaper** : [swww](https://github.com/Horus645/swww)
+- **Lock** : [Swaylock](https://github.com/swaywm/swaylock)
 - **Notification daemon** : [Dunst](https://github.com/dunst-project/dunst)
 - **IDE** : [Neovim](https://github.com/neovim/neovim) with [personal config](https://github.com/Aliiiiii404/Neovim-config/tree/main)
 
@@ -36,3 +37,13 @@ reboot
 git clone https://github.com/Aliiiiii404/dotfiles ~/dotfiles
 cp -r ~/dotfiles/.config/* ~/.config/
 ```
+
+### Inspirations
+##### It's my first time working on Hyprland, so I looked through a lot the dotfiles in Hyprland's topics to get inspiration. Here are some, i don't remember all of em so i'll add them whene i find them :
+
+- [prasanthrangan](https://github.com/prasanthrangan/hyprdots)
+- [linuxmobile](https://github.com/linuxmobile/hyprland-dots)
+- [1amSimp1e](https://github.com/1amSimp1e/dots)
+- [m4xshen](https://github.com/m4xshen/dotfiles)
+
+
