@@ -39,7 +39,7 @@ cp -r ~/dotfiles/.config/* ~/.config/
 ```
 
 ### Inspirations
-##### It's my first time working on Hyprland, so I looked through a lot the dotfiles in Hyprland's topics to get inspiration. Here are some, i don't remember all of em so i'll add them whene i find them :
+It's my first time working on Hyprland, so I looked through a lot the dotfiles in Hyprland's topics to get inspiration. Here are some, i don't remember all of em so i'll add them whene find :
 
 [prasanthrangan](https://github.com/prasanthrangan/hyprdots) - [linuxmobile](https://github.com/linuxmobile/hyprland-dots) - [1amSimp1e](https://github.com/1amSimp1e/dots) - [m4xshen](https://github.com/m4xshen/dotfiles)
 
