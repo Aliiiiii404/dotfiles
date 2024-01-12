@@ -94,7 +94,7 @@ window#waybar.hidden {
   color: #5E81AC;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 #network.disconnected {
