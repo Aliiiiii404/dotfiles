@@ -1,16 +1,8 @@
 {
     "layer": "top", // Waybar at top layer
     "modules-left": ["custom/launcher"],
-    "modules-center": ["wlr/workspaces"],
+    "modules-center": ["hyprland/workspaces"],
     "modules-right": ["network", "battery", "custom/swww", "clock", "custom/power-menu"],
-    "wlr/workspaces": {
-      "format": "{icon}",
-      "on-click": "activate",
-      "format-icons": {
-        "active": " 󰮯",
-        "default": "",
-      }
-    },
     "hyprland/window": {
         "format": "{}"
     },
