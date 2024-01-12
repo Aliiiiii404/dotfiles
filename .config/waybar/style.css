@@ -93,8 +93,8 @@ window#waybar.hidden {
 #battery {
   color: #5E81AC;
   padding-left: 15px;
-  padding-right: 0px;
-  font-size: 33px;
+  padding-right: 15px;
+  font-size: 22px;
 }
 
 #network.disconnected {
