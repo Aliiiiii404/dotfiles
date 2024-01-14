@@ -25,7 +25,7 @@
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
     },
     "battery": {
-      "bat": "macsmc-battery",
+      "bat": "BAT0",
       "adapter": "ADP0",
       "interval": 60,
       "states": {
@@ -36,7 +36,7 @@
       "format": "{icon}",
       "format-warning": "{icon}",
       "format-critical": "{icon}",
-      "format-charging": "<span font-family='Font Awesome 6 Free'></span> {capacity}%",
+      "format-charging": " {capacity}%",
       "format-plugged": "  {capacity}%",
       "format-alt": "{icon} {capacity}%",
       "format-full": "  {capacity}%",
