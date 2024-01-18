@@ -44,12 +44,12 @@
     mouse_right_click = close_all
 
 [urgency_low]
-    background = "#232323"
+    background = "#252733"
     foreground = "#a8a8a8"
     timeout = 10
 
 [urgency_normal]
-    background = "#232323"
+     background = "#252733"
     foreground = "#a8a8a8"
     timeout = 10
 
