@@ -2,13 +2,13 @@
     "layer": "top", // Waybar at top layer
     "modules-left": ["custom/launcher"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network", "battery", "custom/swww", "clock", "custom/power-menu"],
+    "modules-right": ["custom/spotify", "network", "battery", "custom/swww", "clock", "custom/power-menu"],
     "hyprland/window": {
         "format": "{}"
     },
     "clock": {
         "format": "{:%H:%M}",
-        "format-alt": "{:%b %d %Y}",
+        "format-alt": "{:%d %b %Y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     },
     "custom/swww": {
@@ -16,7 +16,6 @@
         "on-click": "~/.config/waybar/scripts/changeWallpaperDesktop"
     },
     "network": {
-        /* "format-wifi": "直", */
         "format-wifi": "{icon}",
         "format-ethernet": " ",
         "format-disconnected": "睊",
@@ -34,12 +33,12 @@
       },
       "max-length": 20,
       "format": "{icon}",
-      "format-warning": "{icon}",
-      "format-critical": "{icon}",
-      "format-charging": " {capacity}%",
-      "format-plugged": "  {capacity}%",
+      "format-warning": "{icon} {capacity}%",
+      "format-critical": "{icon} {capacity}%",
+      "format-plugged": " {capacity}%",
+      "format-charging": "  {capacity}%",
       "format-alt": "{icon} {capacity}%",
-      "format-full": "  {capacity}%",
+      "format-full": " {capacity}%",
       "format-icons": [" ", " ", " ", " ", " "],
     },
    "custom/lock": {
@@ -54,5 +53,14 @@
     "custom/launcher": {
         "format": "",
         "on-click": "wofi",
-    },
+   },
+    "custom/spotify": {
+        "format": " {}",
+        "exec": "~/.config/waybar/scripts/spotify-bar.sh",
+        "return-type": "json",
+        "on-click": "~/.config/waybar/scripts/spotify-commands.sh",
+    }
+
 }
+
+
