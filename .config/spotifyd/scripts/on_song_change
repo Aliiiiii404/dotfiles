@@ -1,0 +1,3 @@
+#!/bin/sh
+song=$(playerctl metadata --format "{{ title }} - {{ artist }}")
+notify-send "Now Playing" "$song" --icon=~/.config/spotifyd/spotify.png

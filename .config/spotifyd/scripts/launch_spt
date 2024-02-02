@@ -1,0 +1,18 @@
+#!/bin/bash
+# Launches spotifyd and spotify-tui(spt)
+
+if pgrep -x "spotifyd" > /dev/null; then
+  killall spotifyd
+  spotifyd
+  sleep 2
+else 
+  spotifyd
+  sleep 2 
+fi
+
+if ! pgrep -x "spt" > /dev/null; then
+  spt
+else
+  killall spt
+  spt
+fi
