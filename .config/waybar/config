@@ -58,7 +58,7 @@
         "format": " {}",
         "exec": "~/.config/waybar/scripts/spotify-bar.sh",
         "return-type": "json",
-        "on-click": "~/.config/waybar/scripts/spotify-commands.sh",
+        "on-click": "playerctl play-pause",
     }
 
 }
