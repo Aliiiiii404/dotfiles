@@ -12,7 +12,7 @@
 - **Lock** : [Swaylock](https://github.com/swaywm/swaylock)
 - **Notification daemon** : [Dunst](https://github.com/dunst-project/dunst)
 - **IDE** : [Neovim](https://github.com/neovim/neovim) with [personal config](https://github.com/Aliiiiii404/Neovim-config/tree/main)
-
+- **Music** : [Spotifyd](https://github.com/Spotifyd/spotifyd) with [Spt(Spotify TUI)](https://github.com/Rigellute/spotify-tui)
 ### ScreenShots
 
 https://github.com/Aliiiiii404/dotfiles/assets/73275543/5fffd947-3edb-40d2-8da9-3576eaaea83c
