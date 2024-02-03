@@ -44,10 +44,21 @@ reboot
 git clone https://github.com/Aliiiiii404/dotfiles ~/dotfiles
 cp -r ~/dotfiles/.config/* ~/.config/
 ```
+### Keybindings
+```bash
+ALT + T                 Kitty
+ALT + R                 Wofi
+ALT + B                 Brave
+ALT + L                 Swaylock
+ALT + F                 Toggle fullscreen on any application
+ALT + V                 Toggle floating
+ALT + Q                 Kill Active
+ALT + S                 Screenshot
+ALT + arrows            Resize active
+ALT + M                 exit Hyprland
+```
 
 ### Inspirations
 This is my first time working on Hyprland, so I looked through a lot of the dotfiles in Hyprland's topics to get inspiration. Here are some; I don't remember all of them, so I'll add them when I find them.
 
 [prasanthrangan](https://github.com/prasanthrangan/hyprdots) - [linuxmobile](https://github.com/linuxmobile/hyprland-dots) - [1amSimp1e](https://github.com/1amSimp1e/dots) - [m4xshen](https://github.com/m4xshen/dotfiles)
-
-
