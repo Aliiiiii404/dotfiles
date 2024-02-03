@@ -2,7 +2,7 @@
     "layer": "top", // Waybar at top layer
     "modules-left": ["custom/launcher"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["custom/spotify", "network", "battery", "custom/swww", "clock", "custom/power-menu"],
+    "modules-right": ["custom/spotify", "custom/volume","network", "battery", "custom/swww", "clock", "custom/power-menu"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -54,7 +54,13 @@
         "format": "",
         "on-click": "wofi",
    },
-    "custom/spotify": {
+    "custom/volume": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/volume-bar.sh",
+        "return-type": "json",
+        "on-click": "~/.config/waybar/scripts/volume-mute.sh",
+  },
+  "custom/spotify": {
         "format": " {}",
         "exec": "~/.config/waybar/scripts/spotify-bar.sh",
         "return-type": "json",
