@@ -24,7 +24,8 @@ window#waybar.hidden {
 #custom-swww,
 #custom-power-menu,
 #custom-launcher,
-#custom-spotify{
+#custom-spotify,
+#custom-volume{
   color: #e5e5e5;
   border-radius: 6px;
   padding: 2px 10px;
@@ -84,7 +85,8 @@ window#waybar.hidden {
   font-size: 37px;
 }
 
-#network {
+#network,
+#custom-volume {
   color: #5E81AC;
   padding-left: 13px;
   padding-right: 24px;
