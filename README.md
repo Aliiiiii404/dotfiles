@@ -13,10 +13,15 @@
 - **Notification daemon** : [Dunst](https://github.com/dunst-project/dunst)
 - **IDE** : [Neovim](https://github.com/neovim/neovim) with [personal config](https://github.com/Aliiiiii404/Neovim-config/tree/main)
 - **Music** : [Spotifyd](https://github.com/Spotifyd/spotifyd) with [Spt(Spotify TUI)](https://github.com/Rigellute/spotify-tui)
-### ScreenShots
-
+### Demo
 https://github.com/Aliiiiii404/dotfiles/assets/73275543/5fffd947-3edb-40d2-8da9-3576eaaea83c
 
+### New Waybar
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/waybar-1.png)
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/waybar-2.png)
+![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/waybar-3.png)
+
+### ScreenShots
 <p align="center">
     <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/1.png" /> <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/3.png" />
     <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/4.png" /> <img align="center" width="49%" src="https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/5.png" />
