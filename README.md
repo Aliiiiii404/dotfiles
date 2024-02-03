@@ -13,13 +13,14 @@
 - **Notification daemon** : [Dunst](https://github.com/dunst-project/dunst)
 - **IDE** : [Neovim](https://github.com/neovim/neovim) with [personal config](https://github.com/Aliiiiii404/Neovim-config/tree/main)
 - **Music** : [Spotifyd](https://github.com/Spotifyd/spotifyd) with [Spt(Spotify TUI)](https://github.com/Rigellute/spotify-tui)
-### Demo
-https://github.com/Aliiiiii404/dotfiles/assets/73275543/5fffd947-3edb-40d2-8da9-3576eaaea83c
 
 ### New Waybar
 ![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/waybar-1.png)
 ![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/waybar-2.png)
 ![Image Alt Text](https://github.com/Aliiiiii404/dotfiles/blob/main/screenshots/waybar-3.png)
+
+### Demo
+https://github.com/Aliiiiii404/dotfiles/assets/73275543/5fffd947-3edb-40d2-8da9-3576eaaea83c
 
 ### ScreenShots
 <p align="center">
@@ -45,7 +46,7 @@ cp -r ~/dotfiles/.config/* ~/.config/
 ```
 
 ### Inspirations
-It's my first time working on Hyprland, so I looked through a lot the dotfiles in Hyprland's topics to get inspiration. Here are some, i don't remember all of em so i'll add them whene find :
+This is my first time working on Hyprland, so I looked through a lot of the dotfiles in Hyprland's topics to get inspiration. Here are some; I don't remember all of them, so I'll add them when I find them.
 
 [prasanthrangan](https://github.com/prasanthrangan/hyprdots) - [linuxmobile](https://github.com/linuxmobile/hyprland-dots) - [1amSimp1e](https://github.com/1amSimp1e/dots) - [m4xshen](https://github.com/m4xshen/dotfiles)
 
